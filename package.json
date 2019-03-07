@@ -1,0 +1,35 @@
+{
+  "name": "vue-cli-plugin-corber",
+  "version": "0.0.1",
+  "description": "vue-cli 3.x plugin for corber",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isleofcode/vue-cli-plugin-corber"
+  },
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "keywords": [
+    "vue",
+    "vue-cli",
+    "corber",
+    "cordova",
+    "hybrid"
+  ],
+  "author": "Alex Blom <alex@isleofcode.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isleofcode/corber/issues"
+  },
+  "homepage": "https://corber.io",
+  "dependencies": {
+    "@vue/cli-shared-utils": "^3.4.0",
+    "glob": "^7.1.3",
+    "html-webpack-include-assets-plugin": "^1.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-vue": "^5.2.2"
+  }
+}

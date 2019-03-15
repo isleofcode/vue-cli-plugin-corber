@@ -3,6 +3,11 @@ const path = require('path');
 const glob = require('glob');
 
 module.exports = function(api) {
+  let isLiveReload = process.env['CORBER_LIVERELOAD'];
+  if (isLiveReload !== true) {
+    return;
+  }
+  
   let cordovaJS, cordovaPluginsJS;
   let plugins = {};
 

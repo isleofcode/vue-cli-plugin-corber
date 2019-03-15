@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-corber",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "vue-cli 3.x plugin for corber",
   "main": "index.js",
   "repository": {
